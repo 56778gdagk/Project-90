@@ -1,0 +1,100 @@
+<html>
+
+    <head>
+
+        <title>The Math Quiz Game!</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.boostatrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="stiyle.css">
+
+       <script src="main.js"></script>
+    
+    </head>
+
+    <body>
+
+        <h4 id="player1_name"></h4> <span id="player1_score"></span>
+
+        <br>
+
+        <h4 id="player2_name"></h4> <span id="player2_score"></span>
+
+        <div class="container">
+
+            <center>
+
+                <h2 style="color: black;">The Math Quiz Game!</h2>
+    
+                <div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+    
+                    <h3>Player 1 login for the game</h3>
+    
+                    <label>User Name</label>
+    
+                    <input type="text" id="player1_name_input" class="from-control" placeholder="player 1 name">
+    
+                </div>
+    
+                <br>
+                <br>
+    
+                <div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+    
+                    <h3>Player 2 login for the game</h3>
+    
+                    <label>User Name</label>
+    
+                    <input type="text" id="player2_name_input" class="from-control" placeholder="player 2 name">
+    
+                </div>
+    
+                <br>
+                <br>
+    
+                <button style="width: 30%;" class="btn btn-primary" onclick="addUser()" >Login</button>
+
+                <br>
+                <br>
+        
+                <div id="output"></div>
+
+                <br>
+                <br>
+
+                <button onclick="check()">Check</button>
+
+                <head>Player1</head>
+
+                <br>
+
+                <input type="text">
+
+                <br>
+                <br>
+
+                <head>Player2</head>
+
+                <br>
+
+                <input type="text">
+
+                <br>
+                <br>
+
+                <button onclick="send()">Send</button>
+    
+            </center>
+
+        </div>
+        
+        
+
+        <script src="quiz_game_.js"></script>
+
+    </body>
+
+</html>
